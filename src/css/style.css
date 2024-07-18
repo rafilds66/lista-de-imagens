@@ -1,0 +1,45 @@
+body{
+    font-family: "Public Sans", sans-serif;
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadros{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quadros .quadro{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.quadros .quadro .informacoes{
+    color: #fff;
+    position: absolute;
+    bottom: 45px;
+    left: 25px;
+}
+
+.quadros .quadro img{
+    width: 100%;
+}
+
+.quadros .quadro .informacoes .titulo{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.quadros .quadro .informacoes .subtitulo{
+    font-weight: 300;
+    font-size: 17px;
+}
+
